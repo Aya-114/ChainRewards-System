@@ -1,0 +1,18 @@
+{
+  "name": "store-rewards-points",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Store Rewards & Points DApp with Truffle, Ganache, Python terminal app, and GUI.",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --network development --reset",
+    "migrate:clean": "truffle migrate --network development --reset && node scripts/clean_truffle_interfaces.js",
+    "clean:interfaces": "node scripts/clean_truffle_interfaces.js",
+    "console": "truffle console --network development",
+    "gui": "python gui_app.py",
+    "terminal": "python app.py"
+  },
+  "devDependencies": {
+    "truffle": "^5.11.5"
+  }
+}

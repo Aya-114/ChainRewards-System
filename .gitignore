@@ -1,0 +1,6 @@
+build/
+node_modules/
+docx_render_qa/
+__pycache__/
+*.pyc
+~$*.docx
